@@ -1,0 +1,138 @@
+/* Yleiset asetukset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Kontainerin keskitys ja ulkoasu */
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* Header */
+#header {
+  background-color: #0073e6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+}
+
+#header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Navigaatio */
+#nav {
+  background-color: #333;
+}
+
+#nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+#nav ul li {
+  margin: 0;
+}
+
+#nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+#nav ul li a:hover,
+#nav ul li a.active {
+  background-color: #0073e6;
+}
+
+/* Pääsisältö */
+#main {
+  padding: 20px;
+  text-align: left;
+}
+
+#main h1 {
+  font-size: 2rem;
+  color: #0073e6;
+  margin-bottom: 20px;
+}
+
+#main p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Kurssipainikkeet */
+.opintojaksot div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.kurssi {
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.kurssi:hover {
+  background-color: #005bb5;
+  transform: scale(1.05);
+}
+
+/* Sivupalkki */
+#sidebar {
+  background-color: #f4f4f9;
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 5px solid #0073e6;
+  font-size: 1rem;
+}
+
+#sidebar h3 {
+  font-size: 1.5rem;
+  color: #0073e6;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+#footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  border-radius: 0 0 8px 8px;
+}
+
+#footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Selkeyttäjä */
+.clr {
+  clear: both;
+}
